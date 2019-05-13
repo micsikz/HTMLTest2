@@ -1,0 +1,25 @@
+#link {
+  color: red;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.pic {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  display: flex;
+ 
+  justify-content: space-between
+}
+
+@media all and (max-width: 800px) {
+  .pics {
+    width: 300px;
+    height: 300px;
+  }
+
+  .pic {
+    height: 50px;
+    width: 50px;
+  }
+}
